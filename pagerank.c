@@ -24,7 +24,6 @@ int main (int argc, char *argv[]) {
 	else if (argc == 4) { //One argument is given
 
 		if (argv[1][0] != '-') { //Syntax error
-			printf("./pagerank -I [number of iterations] -A [alpha] network_file.net\n");
 			return -1;
 		}
 
@@ -37,7 +36,6 @@ int main (int argc, char *argv[]) {
 		}
 
 		else {
-			printf("./pagerank -I [number of iterations] -A [alpha] network_file.net\n"); //Syntax error
 			return -1;			
 		} 
 
@@ -47,7 +45,6 @@ int main (int argc, char *argv[]) {
 	else if (argc == 6) { // Both arguments are given
 
 		if (argv[1][0] != '-' || argv[3][0] != '-') { //Syntax error
-			printf("./pagerank -I [number of iterations] -A [alpha] network_file.net\n");
 			return -1;
 		}
 
@@ -62,7 +59,6 @@ int main (int argc, char *argv[]) {
 		}
 
 		else { //Syntax error
-			printf("./pagerank -I [number of iterations] -A [alpha] network_file.net\n");
 			return -1;			
 		} 
 
