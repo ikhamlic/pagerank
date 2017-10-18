@@ -1,4 +1,4 @@
-# An Open Source PageRank Implementationin C
+# An Open Source PageRank Implementation in C
 
 An open source PageRank implementation in C, implemented as described in David Austing’s How Google Finds Your Needle in the Web's Haystack. The algorithm handles large hyperlink graphs with millions of vertices and arcs.
 
