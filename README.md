@@ -20,7 +20,7 @@ where options may be:
 
 * -I: Number of iterations.
 
-where input file is in the follow format (see example.net):
+where input file is in the following format (see example.net):
 
     Number of pages
     Link 1
